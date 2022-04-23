@@ -2,7 +2,7 @@
 
 - name: mytextbook
   hosts: all
-   vars:
+  vars:
      URL: "www.org.com"
   tasks:
     - name: ping the hosts
