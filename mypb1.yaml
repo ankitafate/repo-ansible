@@ -10,5 +10,7 @@
     - name: ping the debug
       debug:
         msg: "welcome to wardha {{URL}} "
+      vars:
+          URL: "WWW.org.com"
 
 ...   
