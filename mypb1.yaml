@@ -3,10 +3,11 @@
 - name: mytextbook
   hosts: all
   vars:
-     URL: "www.org.com"
+    URL: "www.org.com"
   tasks:
     - name: ping the hosts
       ping:
+    - name: ping the debug
       debug:
         msg: "welcome to wardha {{URL}} "
 
