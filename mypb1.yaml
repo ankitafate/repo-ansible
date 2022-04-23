@@ -5,5 +5,7 @@
   tasks:
     - name: ping the hosts
       ping:
+      debug:
+        msg: "welcome to wardha"
 
 ...   
